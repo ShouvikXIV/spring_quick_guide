@@ -64,6 +64,7 @@ Difference between Singleton and Prototype scope →
 | We can configure to create the beans during the start up or when the first time referred. | Spring always create new object when we try to refer the bean.                   |
 | Immutable objects can be ideal for singleton scope.                                       | Mutable objects can be ideal for prototype scope.                                |
 | Most commonly used.                                                                       | Very rarely used.                                                                |
+
 ### **Request Bean Scope (Less common)**:
 
 - Used in web applications where a new bean instance is created for each HTTP request.
